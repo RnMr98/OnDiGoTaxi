@@ -1,24 +1,38 @@
 body {
-	font-family: Arial, sans-serif;
+	font-family: 'Times New Roman', Times, serif;
   margin: 0px;
 	margin-left: 20px;
 	margin-right: 20px;
 	padding: 0;
+  background-image: url(/OnDiGoTaxi-main//web1/images/taxi3.jpg);
   background-color: rgba(255, 255, 1, 0.589);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
+h1, .p{
+  color: rgb(255, 255, 255);
+}
 .div1{
   color: rgb(4, 0, 0);
   width:100%;
+  margin-left: auto;
+  margin-right: auto;
   }
 .titlepic{
-  width:100%
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:60%;
+  opacity: 0.;
+  
 }
 .titlename{
   padding-bottom: 45px;
   padding-top:0px;
   padding-left:20px;
   margin:0px;
+  font-weight: bolder;
   
 }
 
@@ -26,46 +40,86 @@ body {
 header {
 	background-color: #333;
 	color: #fff;
+  margin-bottom: 70px;
 }
 
-nav ul {
-	list-style: none;
-	margin: 0px;
-	padding: 10px;
-}
 
-nav ul li {
-	display: inline-block;
-}
 
 .book{
   text-align: center;
+  padding: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  background-color: #1b1a1a;
+
 }
 .row{
   display: flex;
-  background-color: rgb(206, 216, 213);
+  background-color: #e9eea2;
   margin: 10px;
 }
 .div2{
   flex: 30%;
 
 }
-.contact{
-  text-align: center;
+.contactus{
+  background-color: #e9eea2;
+
 }
 
-.booknow {
-  
-  margin-top: 0px;
-  margin-bottom: 0;
-  padding: 0px;
+.contact{
+display: inline-block;
+margin: 10px;
+width: 40%;
+text-align: center;
+vertical-align: text-top;
 }
 
 .taxi2{
   width: 50%;
   margin-left: 25%;
 }
+
 .offer{
   text-align: center;
-  background-color: rgb(200, 229, 36);
+  background-color: #e9eea2;
 }
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+  .fa-instagram {
+    background: #d62976;
+    color: white;
+  }
+  .foot{
+    background-color:#1b1a1a;
+    margin-top: 20px;
+  }
+
+  .footer{
+    display: inline-block;
+    margin-left: 15%;
+    width: 30%;
+    text-align: center;
+  }
+
+  .rights{
+    text-align: center;
+  }
