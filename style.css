@@ -1,0 +1,228 @@
+body {
+	font-family: 'Times New Roman', Times, serif;
+  margin: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 0;
+  background-image: url(/OnDiGoTaxi-main//web1/images/taxi3.jpg);
+  background-color: rgba(255, 255, 1, 0.589);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about{
+  background-color: rgba(36, 36, 23, 0.589);
+}
+
+h1, .p{
+  color: rgb(255, 255, 255);
+}
+
+#carousel img{
+  width: 500px;
+  margin: auto;
+
+}
+ .black{
+  color: black;
+ }
+
+.div3{
+  width:100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  background-color: #e9eea2;
+}
+.div1{
+  width:100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  margin-bottom: 200px;
+  background-color: #6e9240;
+  
+  }
+.titlepic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:60%;
+  opacity: 0.;
+  
+}
+.titlename{
+  padding-bottom: 45px;
+  padding-top:0px;
+  padding-left:20px;
+  margin:0px;
+  font-weight: bolder;
+  
+}
+
+
+header {
+	background-color: #333;
+	color: #fff;
+  margin-bottom: 70px;
+}
+
+
+
+.booknow{
+  text-align: center;
+  padding: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  background-color: #1b1a1a;
+
+}
+.row{
+  display: flex;
+  background-color: #e9eea2;
+  margin: 10px;
+}
+.div2{
+  flex: 30%;
+
+}
+.contactus{
+  background-color: #e9eea2;
+  width: auto;
+}
+
+.contact{
+display: inline-block;
+margin: 10px;
+width: 40%;
+vertical-align: text-top;
+text-align: center;
+}
+
+.taxi2{
+  width: 50%;
+  margin-left: 25%;
+}
+
+.offer{
+  text-align: center;
+  background-color: #e9eea2;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+  .fa-instagram {
+    background: #d62976;
+    color: white;
+  }
+  .foot{
+    background-color:#1b1a1a;
+    margin-top: 20px;
+  }
+
+  .footer{
+    display: inline-block;
+    margin-left: 15%;
+    width: 30%;
+    text-align: center;
+  }
+
+  .rights{
+    text-align: center;
+  }
+
+  #form {
+    width: 700px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #e9eea2;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: black;
+    background-color: rgb(255, 255, 1);
+    border: none;
+    border-radius: 4px;
+}
+
+  .input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
+@media only screen and (min-width: 768px) {
+[class*="col-"] {
+  width: 100%;
+}
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
